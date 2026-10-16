@@ -6,6 +6,7 @@ Unidad: Iteración funcional para ecuaciones - búsqueda de raíces y análisis 
 Este repositorio implementa y compara seis métodos numéricos de búsqueda de raíces (Bisección, Falsa Posición, Punto Fijo, Secante, Newton-Raphson y Newton-Raphson Mejorado) evaluados bajo un ambiente controlado (`tol = 1e-6`, `max_iter = 100`) sobre 6 funciones de distinta naturaleza (polinómica simple, polinómica con raíz doble, logarítmica, exponencial, trigonométrica y mixta).
 
 ## Estructura del Repositorio
+```text
 evaluacion2-busqueda-raices/
 ├── README.md              # Documentación del entorno y ejecución de scripts
 ├── requirements.txt       # Dependencias del proyecto (numpy, matplotlib, pytest)
