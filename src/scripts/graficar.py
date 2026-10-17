@@ -132,7 +132,7 @@ def graficar_resumen_iteraciones(catalogo):
             
     nombres_funciones = [f["categoria"] for f in catalogo]
     etiquetas_eje = [cat.replace(" (", "\n(") for cat in nombres_funciones]
-    nombres_metodos = ["Bisección", "Falsa Posicion", "Punto Fijo", "Secante", "Newton-Raphson", "Newton Mejorado"]
+    nombres_metodos = ["Bisección", "Falsa Posición", "Punto Fijo", "Secante", "Newton-Raphson", "Newton Mejorado"]
     colores = ["#1f77b4", "#ff7f0e", "#2ca02c", "#9467bd", "#d62728", "#8c564b"]
     
     x = np.arange(len(nombres_funciones))
